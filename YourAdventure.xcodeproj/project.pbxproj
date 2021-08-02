@@ -25,6 +25,11 @@
 		B4B2FBEE262C627E00B44C80 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2FBED262C627E00B44C80 /* SettingsViewController.swift */; };
 		B4B2FBF3262DB76D00B44C80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2FBF2262DB76D00B44C80 /* Constants.swift */; };
 		B4B547532632D4AB00B720F4 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B547522632D4AB00B720F4 /* ResultsViewController.swift */; };
+		B4FAD61526B849C80067A073 /* afterAdventureStats.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FAD61026B849C70067A073 /* afterAdventureStats.png */; };
+		B4FAD61626B849C80067A073 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FAD61126B849C70067A073 /* history.png */; };
+		B4FAD61726B849C80067A073 /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FAD61226B849C70067A073 /* stats.png */; };
+		B4FAD61826B849C80067A073 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FAD61326B849C70067A073 /* settings.png */; };
+		B4FAD61926B849C80067A073 /* startScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FAD61426B849C80067A073 /* startScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +52,11 @@
 		B4B2FBED262C627E00B44C80 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B4B2FBF2262DB76D00B44C80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B4B547522632D4AB00B720F4 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		B4FAD61026B849C70067A073 /* afterAdventureStats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = afterAdventureStats.png; sourceTree = "<group>"; };
+		B4FAD61126B849C70067A073 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		B4FAD61226B849C70067A073 /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
+		B4FAD61326B849C70067A073 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		B4FAD61426B849C80067A073 /* startScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				B4ADDC5B2638C88600F3A8A1 /* README.md */,
+				B4FAD60326B849160067A073 /* README_Photos */,
 				B41B2360262B90600007C5FD /* YourAdventure */,
 				B41B235F262B90600007C5FD /* Products */,
 			);
@@ -125,6 +136,18 @@
 				B421A503266BF59000CA5B13 /* PolylineViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4FAD60326B849160067A073 /* README_Photos */ = {
+			isa = PBXGroup;
+			children = (
+				B4FAD61026B849C70067A073 /* afterAdventureStats.png */,
+				B4FAD61126B849C70067A073 /* history.png */,
+				B4FAD61326B849C70067A073 /* settings.png */,
+				B4FAD61426B849C80067A073 /* startScreen.png */,
+				B4FAD61226B849C70067A073 /* stats.png */,
+			);
+			path = README_Photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +215,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FAD61926B849C80067A073 /* startScreen.png in Resources */,
 				B41B236E262B90620007C5FD /* LaunchScreen.storyboard in Resources */,
+				B4FAD61826B849C80067A073 /* settings.png in Resources */,
+				B4FAD61726B849C80067A073 /* stats.png in Resources */,
+				B4FAD61526B849C80067A073 /* afterAdventureStats.png in Resources */,
+				B4FAD61626B849C80067A073 /* history.png in Resources */,
 				B41B236B262B90620007C5FD /* Assets.xcassets in Resources */,
 				B41B2369262B90600007C5FD /* Main.storyboard in Resources */,
 			);
